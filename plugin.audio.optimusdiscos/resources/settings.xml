@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="optimus_playlist_url" type="text" default="http://nosdiscos.pt/player/playlist/optimus.json" label="JSON Playlist file"/>
+    <setting id="optimus_playlist_cache_duration" type="slider" default="12" range="1,48" label="Cache TTL (in hours)"/>
+</settings>

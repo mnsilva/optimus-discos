@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.optimusdiscos"
+       name="Optimus Discos"
+       version="0.1.0"
+       provider-name="trace">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Music from Optimus Discos</summary>
+    <description lang="en">Portuguese music from Optimus Discos netlabel catalog.</description>
+    <disclaimer lang="en">This addon is not published nor endorsed by NOS Discos.</disclaimer>
+    <summary lang="pt">Música de Optimus Discos</summary>
+    <description lang="pt">Música portuguesa disponível no catálogo on-line da editora Optimus Discos.</description>
+    <disclaimer lang="pt">Este addon não é publicado nem apoiado pela NOS Discos.</disclaimer>
+    <platform>all</platform>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <website></website>
+    <email>msilva@portolinux.net</email>
+    <source>https://github.com/mnsilva/</source>    
+  </extension>
+</addon>
